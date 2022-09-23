@@ -1,0 +1,27 @@
+﻿@model MVCWebApplication2.Models.Employee
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+<h2>Employee Details</h2>
+<table>
+    <tr>
+        <td><b>Employee ID</b></td>
+        <td>@Model.EmployeeId</td>
+    </tr>
+    <tr>
+        <td><b>Employee Name</b></td>
+        <td> @Model.name</td>
+    </tr>
+    <tr>
+        <td><b>Employee Gender</b></td>
+        <td>@Model.gender</td>
+    </tr>
+    <tr>
+        <td><b>Employee City</b></td>
+        <td>@Model.city</td>
+    </tr>
+
+</table>
+
